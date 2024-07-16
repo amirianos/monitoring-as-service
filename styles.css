@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Samim';
+    src: url('fonts/Samim.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: 'Samim', sans-serif;
     margin: 0;
