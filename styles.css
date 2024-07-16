@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Samin', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    direction: rtl;
 }
 
 .container {
@@ -18,11 +19,11 @@ header {
 }
 
 header h1 {
-    float: left;
+    float: right;
 }
 
 header nav {
-    float: right;
+    float: left;
     margin-top: 10px;
 }
 
@@ -34,7 +35,7 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header nav ul li a {
@@ -44,11 +45,12 @@ header nav ul li a {
 }
 
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
     height: 400px;
     color: #fff;
     text-align: center;
     padding-top: 150px;
+    position: relative;
+    background: url('hero.jpg') no-repeat center center/cover;
 }
 
 .hero h2 {
@@ -87,7 +89,7 @@ header nav ul li a {
 }
 
 .contact label {
-    text-align: left;
+    text-align: right;
 }
 
 .contact input, .contact textarea {
